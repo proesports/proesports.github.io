@@ -60,6 +60,13 @@
 
     <!-- Header -->
     <header id="top" class="header">
+
+        <video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+          <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+            <source src="assets/videos/movie360.webm" type="video/webm">
+            <source src="assets/videos/movie360.mp4" type="video/mp4">
+        </video>
+
         <div class="text-vertical-center">
             <h1>Start Bootstrap</h1>
             <h3>Free Bootstrap Themes &amp; Templates</h3>
@@ -263,10 +270,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
