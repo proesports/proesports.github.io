@@ -40,6 +40,11 @@ body {
     font-size: 25px;
 }
 
+.bg-dark {
+    color: #fff;
+    background-color: #E8E8E8;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -203,6 +208,35 @@ video {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+/* How it works
+https://github.com/IronSummitMedia/startbootstrap-full-slider/blob/gh-pages/css/full-slider.css
+ */
+
+.how-it-works {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Callout */
