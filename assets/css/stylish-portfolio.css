@@ -76,7 +76,7 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 0px;
 }
 
 /* Side Menu */
@@ -187,7 +187,7 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
+    z-index: -200;
     transform: translateX(-50%) translateY(-50%);
     background: url('') no-repeat;
     background-size: cover;
